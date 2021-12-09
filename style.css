@@ -2,6 +2,7 @@ body {
     font-size: 15pt;
     padding: 5px;
     margin: 0;
+    padding-bottom: 1000px;
 }
 
 .card {
@@ -19,5 +20,10 @@ body {
 }
 
 .title > h3 {
+  margin-right: 10px;
+}
+
+strong {
+  margin-left: auto;
   margin-right: 10px;
 }
