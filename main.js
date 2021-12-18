@@ -17,7 +17,7 @@ function initialRender(data) {
     cards.append(Card({
       name: data[i].name,
       id: data[i].id,
-      btnName: "tip dao",
+      btnName: "Add to bucket",
       callback: id => add(id),
       price: data[i].price
     }))

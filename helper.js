@@ -2,7 +2,7 @@ export const selector = s => document.querySelector(s)
 export const selectorAll = s => document.querySelectorAll(s)
 export const create = el => document.createElement(el)
 
-export const Card = ({ name, id, callback, btnName, index, price }) => {
+export const Card = ({ name, id, callback, btnName, price }) => {
   const div = create("div")
   div.className = "card"
   
@@ -24,8 +24,4 @@ export const Card = ({ name, id, callback, btnName, index, price }) => {
   div.append(button)
   
   return div
-}
-
-window.onerror = (ev, src, line, col) => {
-  console.log(ev, src, line, col);
 }
